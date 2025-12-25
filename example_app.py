@@ -154,7 +154,7 @@ st.sidebar.title("Analysis Settings")
 
 
 categorical_columns = ["Country", "StockCode"]
-selected_category = st.sidebar.selectbox(("Please select a category:", categorical_columns))
+selected_category = st.sidebar.selectbox("Please select a category:", categorical_columns)
 
 st.write(f"### Analysis Based on {selected_category}")
 
@@ -184,3 +184,4 @@ st.write(f"### Analysis Based on {selected_category}")
     
 
     
+
